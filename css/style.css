@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+nav ul{
+    padding: 0;
+    background-color: black;
+    margin: 0;
+}
+nav li{
+    display: inline-block;
+    width: 24.8%;
+    text-align: center;
+    background-color: black;
+    padding: 10px 0;
+}
+
+nav li a{
+    width: 100%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+nav li a:hover{
+    background-color: grey;
+    color: black;
+}
+
+/* main banner */
+
+.main-banner{
+    height: 75vh;
+    position: relative;
+    background-image: url("../images/coffeehouse.jpg");
+    background-size: cover;
+background-position: center;}
+.main-banner h1{
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.main-banner .openning-hours{
+    background-color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    padding: 8px;
+}
+.main-banner .openning-hours p{
+    font-size: 14px;
+    color: white;
+    margin: 0;
+}
+.about, .menu, .where{
+    max-width: 700px;
+    margin: auto;
+}
